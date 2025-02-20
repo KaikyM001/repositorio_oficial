@@ -1,2 +1,2 @@
 # repositorio_oficial
- repositorio pessoal
+ usada para projetos_oficial
