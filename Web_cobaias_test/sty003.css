@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+                                /**/
+
+
+:root{
+    --cor1:rgb(143, 144, 145);
+    --cor2:rgb(240, 236, 236);
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+
+*{
+    border: 0px;
+    margin: 0px;
+}
+
+
+/*TITULO DO TEXTO!*/ /**/
+header{
+    text-align:center;
+    margin:0px;
+    background-color: var(--cor1);
+}
+.p1{
+    text-align: justify;
+    padding: 0px 0px 5px 0px;
+}
+
+.pw{
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+/*///////////////////////////////////////////////////////////////////////
+ PARÁGRAFOR ENTRE OUTROS!*/
+ p{
+    text-align:justify;
+    padding: 15px 10px 5px 10px;
+ } 
+
+
+section{
+    margin: 10px;
+}
+
+dd{
+    margin: 0px 0px 0px 20px;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+
+footer{
+    background-color:var(--cor1);
+}
+
+.p00{
+    padding: 5px 5px 15px 5px;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+
+/*links*/
+a{
+    color: blue;
+}
+
+span{
+    background-color: rgb(4, 219, 4);
+    padding: 0px 2px 0px 2px;
+    border-radius:5px;
+}
+
+
+
+

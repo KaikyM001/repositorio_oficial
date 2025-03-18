@@ -1,0 +1,222 @@
+@charset "Utf-8";
+ /* */
+*{
+
+}
+
+body{
+    margin: 0px;
+}
+
+:root{
+    --cor1:#008000;
+    --cor2:#8e948e;
+
+
+    /*//////////////////*/
+    /*degrader abaixo 2°parte*/
+    --cor8:rgba(250, 250, 250, 0);
+    --cor7:rgba(47, 235, 5, 0.153);
+    --cor6:rgba(33, 224, 7, 0.945);
+    
+    /*//////////////////*/
+    /*degrader abaixo*/
+    --cor5:rgba(250, 250, 250, 0);
+    --cor4:rgba(47, 235, 5, 0.578);
+    --cor3:rgba(17, 148, 0, 0.945);
+
+    
+   
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+                    /*CABEÇALHO*/
+
+
+header{/* */
+
+   
+}
+
+
+                                    /* */
+.ft{
+    background-color: var(--cor1);
+    font-family:'2font';
+    justify-content: center;
+    display: flex;
+    padding-top:10px;
+    font-size: 50px;
+    padding-bottom: 10px;
+    margin: 0px;
+   
+}
+
+
+.p1{
+    background-color: var(--cor1);
+    text-align: justify;
+    padding: 0px 20px 20px 20px;
+    text-indent: 40px;
+    margin: 0px;
+}
+
+
+
+@font-face {
+    font-family:'minecraft';
+    src: url('Downloads/fonts/Fonts_minecraft/Minecrafter.@oficial.ttf')format('truetype');
+}
+
+@font-face {
+    font-family:'2font';
+    src: url('Downloads/fonts/minercra2font/Minercraftory.ttf')format('truetype');
+}
+
+/*CABEÇALHO ACIMA!*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Corpo do site/ titulo em sizar*/ 
+
+main{
+    margin-bottom:30px;/**/
+}
+
+
+
+.ft2{background-color: var(--cor2);
+   padding: 10px;
+   text-indent: 40px;
+   text-align: left;
+   margin: 0px;
+    font-family: '2font';
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*sequencia de passoas debaixo do titulo siza!*/
+
+section{
+ 
+}
+
+
+h3{
+background-image: linear-gradient( -95deg,var(--cor5), var(--cor4), var(--cor3));
+margin-right:10%;
+margin-left:8%;
+margin-top:13px;
+margin-bottom: 0px;
+padding: 5px 0px 5px 5px;
+border-radius: 5px 0px 0px 5px;
+}
+
+
+ul{
+    margin: 10px 10px 0px 13%;
+    border-radius: 10px 0px 0px 10px;
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.ul1:hover{
+    background-image: linear-gradient(to left,var(--cor5), var(--cor4), var(--cor3));
+    margin: 10px 10px 0px 13%;
+    border-radius: 10px 0px 0px 10px;
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.ul2:hover{
+    background-image: linear-gradient(220deg,var(--cor8), var(--cor7), var(--cor6));
+    margin: 10px 10px 0px 13%;
+    border-radius: 10px 0px 0px 10px;
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*videos bonus com dicas!*/
+
+.section2{
+    background-color: red;/*só para sinaliza tamanho*/
+    height: 870px;
+}
+
+div{
+    background-color: var(--cor1);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    height: 60%;
+    width: 80%;
+}
+
+
+.resulmo{
+    background-color: var(--cor3);
+    text-align: justify;
+    padding: 10px;
+    text-indent: 30px;
+    margin: 0px;
+
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*links mais dicas!*/
+
+.ul0{
+    margin-top: 30px;
+    margin-right:10%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:blue;
+
+}
+
+.li2{
+    padding: 5px;
+    border-radius: 10px 0px 0px 0px;
+    margin-bottom:3px;
+
+}
+
+.li2:hover{
+    background-image: linear-gradient(to left,var(--cor5), var(--cor4), var(--cor3));
+    padding: 5px;
+    border-radius: 10px 0px 0px 0px;
+    margin-bottom:3px;
+    text-decoration: underline;
+    color: rgb(7, 55, 215);
+}
+
+footer{
+   
+}
+
+.p01{
+    background-color: green;
+    text-align: justify;
+    padding: 5px;
+
+}
+
+
